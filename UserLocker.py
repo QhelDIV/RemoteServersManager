@@ -5,7 +5,7 @@ class Executer:
 class UserCreater(Executer):
         def __init__(self, api=os.system):
             super().__init__(api)
-        def run(self, username, password, hostname, newuser, newpass):
+        def run(self,username, password, newuser, newpass):
                 # For safty, forbid bash history to record any command contains sudo -S
                 self.api('export HISTIGNORE="*sudo -S*"')
 
