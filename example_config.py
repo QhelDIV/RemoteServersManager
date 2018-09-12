@@ -1,5 +1,4 @@
-username = "test"
-password = "supernova"
-hosts = ["172.233.233.233",]
+from credential import *
+records = [("172.233.233.233","ceshi","233"), \
+        ]
 
-newUserInfos = [("president","hispassword"),]
